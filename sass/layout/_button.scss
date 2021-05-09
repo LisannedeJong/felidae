@@ -1,0 +1,19 @@
+.btn {
+  ::before,
+  ::after {
+    text-emphasis: none;
+  }
+  &--header {
+    background: none;
+    font-size: $text-big;
+    border-width: 0;
+    @include style-link-text(rgba($color-text-light, 0.6));
+    font-family: "Montserrat", verdana, sans-serif;
+    margin-top: 5rem;
+    :hover {
+      animation-duration: 2s;
+      font-weight: bold;
+      @include style-link-text($color-text-light);
+    }
+  }
+}

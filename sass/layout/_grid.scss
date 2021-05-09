@@ -1,0 +1,19 @@
+.text {
+  &--div {
+    width: $grid-width;
+    margin-left: $grid;
+    position: absolute;
+  }
+  &--sub2 {
+    position: relative;
+  }
+  &--image {
+    margin-left: 50vw;
+    .tiger {
+      display: inline;
+      position: relative;
+      width: $grid-width;
+      margin-top: 2rem;
+    }
+  }
+}

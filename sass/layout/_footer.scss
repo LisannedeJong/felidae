@@ -1,0 +1,4 @@
+.footer {
+  background-color: rgba($color-primary-light, 0.7);
+  @include style-text($color-text-dark);
+}
